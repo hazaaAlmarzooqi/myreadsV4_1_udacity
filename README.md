@@ -4,16 +4,15 @@
 A simple app that allows users to organize their books in categories.
 
 **IMPORTANT NOTE:**
-Please Turn On THIRD-PARTY Cookies on Google Chrome or keep The tracking preventation At Basic in Microsoft Edge, to compile the App without any ERRORS.
-make sure you have used **npm cache clean --force**, to clean Cache.
-**clear your Browser History.**
+Please Turn On THIRD-PARTY Cookies on Google Chrome or keep The tracking preventation At Basic in Microsoft Edge, to compile the App without any ERRORS, also dont forget to clear your Browser History.
 Thanks.
 
 ### Features
 - View books in different shelves based on their reading status (Currently Reading, Want to Read, Read).
-- Search for books by title or author.
+- Search for books by title.
 - Move books between shelves.
 - The application saves your book data, so it persists even after a page refresh.
+- Notification has been add to improve the app.
 
 ---
 
@@ -25,9 +24,9 @@ To run this project locally, you need to have:
 - **npm** installed.
 
 ### Clone the repository:
-git clone https://github.com/hazaaAlmarzooqi/myreadsV4_1_udacity.git
+git clone https://github.com/hazaaAlmarzooqi/MyreadsV4_1_udacity.git
 
-cd myreadsV4_1_udacity
+cd MyreadsV4_1_udacity
 
 ### Install dependencies:
 To install all the required dependencies for the project, use
@@ -53,10 +52,13 @@ Once the development server starts, open your browser and navigate to:
 │   └── index.html # DO NOT MODIFY
 └── src
     ├── App.css # Styles for your app.
-    ├── App.js # This is the root of your app.
+    ├── App.js # This is the root of the app.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend.
-    ├── Mainpage.js # the Main page.
-    ├── SearchPage.js # the search page.     
+    ├── page # main and search page.
+        ├── SearchPage.js # the search page.
+        └── Mainpage.js # the Main page.
+    ├── components # file that have book.js.
+        └── Book.js # books.
     ├── icons # Helpful images for your app. Use at your discretion.
     │   ├── add.svg
     │   ├── arrow-back.svg
@@ -108,7 +110,7 @@ Here you can add some screenshots of the app for visual reference:
   
 ![Main Page Screenshot](./mainpage.PNG)
 ![Main fetch Screenshot](./mainFetch.PNG)
-![Main ALL Inspect Screenshot](./all_inspectloading.PNG)
+![Main ALL Inspect Screenshot](./main_all_inspect.PNG)
 
 
 - **Search Page**:
