@@ -25,9 +25,9 @@ To run this project locally, you need to have:
 - **npm** installed.
 
 ### Clone the repository:
-git clone https://github.com/hazaaAlmarzooqi/myreadslast.git
+git clone https://github.com/hazaaAlmarzooqi/myreadsV4_1_udacity.git
 
-cd myreadslast
+cd myreadsV4_1_udacity
 
 ### Install dependencies:
 To install all the required dependencies for the project, use
